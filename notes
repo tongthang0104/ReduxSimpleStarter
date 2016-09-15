@@ -1,0 +1,10 @@
+// set value={this.states.term} ==> turn the input into Control components and we can control the initial value , this.states.term changed and the input changed too.
+// ES6 this.setState( {videos: videos }) ==> same key and value so it can become this.setState({ videos })
+//rendering a list of data, has to use key="" for each for react to fast load
+//use lodash for debounce keep user limit input.
+//redux: State container ==> collection of data
+//react: Views
+
+//react container is Component that has connection to the state managed by redux
+//container can be determined whenever the Parent component handle the state
+// mapStateToProps that parameter state return whatever inside as props inside the class
